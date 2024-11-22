@@ -1,0 +1,39 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip-container .tooltip-text {
+    visibility: hidden;
+    background-color: #4caf50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: -50px; /* Move tooltip above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.tooltip-container .tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: -15px; /* Slightly overlap with the tooltip box */
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg); /* Rotate the triangle */
+    border-width: 8px;
+    border-style: solid;
+    border-color: #4caf50 transparent transparent transparent; /* Match tooltip background color */
+}
+
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  

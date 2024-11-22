@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Varela_Round } from "next/font/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +13,12 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const varela_round = Varela_Round({
+  subsets: ["latin"],
+  weight:['400'],
+  variable: '--font-varela'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${varela_round.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
