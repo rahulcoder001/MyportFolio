@@ -72,10 +72,12 @@ export function Project(){
                 <p className="text-justify text-sm md:text-base text-black mt-2">Created a blogging website for users to share and manage their posts.</p>
                 <ul className="flex flex-wrap text-black gap-2 mt-2">
                     <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#ReactJs</li>
-                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Express</li>
+                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Cloudflare workers</li>
                     <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#TypeScript</li>
-                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Nodejs</li>
-                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#MongoDB</li>
+                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Prisma</li>
+                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#Postgres</li>
+                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#zod</li>
+                    <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base">#jwt</li>
                 </ul>
            </div>
       </div>
